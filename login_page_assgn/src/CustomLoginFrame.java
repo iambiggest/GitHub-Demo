@@ -45,7 +45,7 @@ public class CustomLoginFrame extends JFrame {
         String password = new String(passwordField.getPassword());
 
         // Simple check for demonstration, replace this with your authentication logic
-        if (email.equals("sehajpreetkaur@gmail.com") && password.equals("sehaj@123")) {
+        if (email.equals("Test@gmail.com") && password.equals("Test@123")) {
             JOptionPane.showMessageDialog(this, "Login successful!");
         } else {
             JOptionPane.showMessageDialog(this, "Incorrect email or password!", "Error", JOptionPane.ERROR_MESSAGE);
